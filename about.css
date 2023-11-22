@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-header li {
+    list-style-type: none;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 100px;
+    display: flex;
+
+  }
+  
+  .nav-header li:hover {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(172, 6, 94);
+    color: white;
+  }
+  
+  .nav-header a {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+  }
+
+  .header-right {
+    display: flex;
+    font-size: 40px;
+    margin-right: 750px;
+    padding: 14px;
+  }
+  
+  .head{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+  }
+
+  header {
+    background-color: rgb(224, 57, 149);
+    width: 400%;
+    height: 80px;
+    border-bottom: 4px solid rgb(20, 20, 48);
+    color: white;
+  }
+
+  .biodata {
+    background-color: #f35ec1de;
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+  }
+
+.top-wrapper li{
+    font-size: 20px;                    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pendidikan {
+    background-color: #f35ec1de;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
+
+.top-wrapper li {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+}
+
+.pengalaman {
+    background-color: #f35ec1de;
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+  
+}
+
+.top-wrapper {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
